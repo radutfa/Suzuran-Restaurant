@@ -1,0 +1,151 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+body {
+    background: url(img/ihsan.jpg);
+    width: 100%;
+    background-size:100%;
+    
+}
+a {
+    color: inherit;
+    text-decoration: none; 
+
+}
+
+header {
+    background-color: transparent;
+    color: #fff;
+    
+}
+header h1 {
+    float: left;
+    padding: 10px 0;
+}
+header ul {
+    float: right;
+    font-weight: bold;
+}
+header ul li {
+    display: inline-block;
+}
+header ul li a {
+    padding: 20px 0 20px 15px;
+    display: inline-block;
+}
+footer {
+    padding: 25px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.container:after {
+    content: '';
+    display: block; 
+    clear: both;
+
+}
+.section {
+    padding:25px 0;
+  
+}
+.box {
+    
+    padding: 15px;
+    box-sizing: border-box;
+    margin:10px 0 25px 0;
+    text-align: center;
+
+}
+.box:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.footer {
+    padding:25px 0;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+.footer small {
+    margin-top: 25px;
+    display: inline-block;
+}
+
+
+
+.judul h3{
+	background-color: #FFFF;
+    padding: 5px 10px;
+   	margin-right: 86%;
+    border: 3px solid ;
+    text-align: center;
+    
+}
+
+#panel, #flip {
+  width: auto;
+  padding: 1px;
+  text-align: center;
+  background-color: white;
+  border: solid 2px;
+  
+}
+
+#panel {
+  padding: 50px;
+  display: none;
+}
+img.tengah {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    
+}
+.profil{
+    text-align: justify;
+    background-color: white;
+    border:2px solid ; 
+    padding: 5px;
+    margin-right: 25%;
+
+}
+
+
+
+@media screen and (max-width: 768px){
+    .container {
+        width: 95%;
+    }
+    #panel,#flip {
+        margin-bottom: 20px;
+    }
+    .profil {
+        width:95%;
+        margin-bottom: 20px;
+    }
+    .col-4 {
+        width: 50%;
+        height:300px;
+    }
+    .col-2 {
+        width: 100%;
+    }
+    .judul h3{
+    	width: 20%;
+    }
+}

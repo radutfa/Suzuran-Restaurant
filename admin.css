@@ -1,0 +1,153 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+body {
+    background-color: #f8f8f8;
+    background-image: url("img/bgsemua.jpg") ;
+    background-size: 100%;
+    width: 100%;
+
+}
+a {
+    color: inherit;
+    text-decoration: none; 
+}
+#bg-login {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.box-login {
+    width: 300px;
+    min-height: 200px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.box-login h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.input-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+.input-control2 {
+    width: 100%;
+    
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+.btn {
+    padding: 8px 15px;
+    background-color: #c70039;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+header {
+    background-color: transparent;
+    color: #fff;
+    
+}
+header h1 {
+    float: left;
+    padding: 10px 0;
+}
+
+header ul {
+    float: right;
+    font-weight: bold;
+}
+header ul li {
+    display: inline-block;
+}
+header ul li a {
+    padding: 20px 0 20px 15px;
+    display: inline-block;
+}
+footer {
+    padding: 25px 0;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.container:after {
+    content: '';
+    display: block; 
+    clear: both;
+}
+.section {
+    padding:25px 0;
+  
+}
+.box {
+    background-color: #fff;
+    border: 3px solid ;
+    padding: 15px;
+    box-sizing: border-box;
+    margin:10px 0 25px 0;
+}
+.box:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table tr td {
+    padding: 5px 10px;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+.footer small {
+    margin-top: 25px;
+    display: inline-block;
+    font-color:white;
+}
+
+.judul h3{
+	background-color: #FFFFFF;
+    padding: 5px 10px;
+   	margin-right: 86%;
+    border: 3px solid ;
+    text-align: center;
+    font-color:black;
+}
+
+
+@media screen and (max-width: 768px){
+    .container {
+        width: 95%;
+    }
+    .col-5 {
+        width:50%;
+        margin-bottom: 10px;
+    }
+    .col-4 {
+        width: 50%;
+        height:300px;
+    }
+    .col-2 {
+        width: 100%;
+    }
+    .judul h3{
+    	width: 20%;
+    }
+}
